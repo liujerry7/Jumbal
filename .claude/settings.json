@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//d/Agents/**)",
+      "Bash(echo \"=== d:/WebDev/Lifeline ===\"; ls -la \"d:/WebDev/Lifeline/\" 2>/dev/null)",
+      "Read(//d/WebDev/Lifeline/**)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git -c user.name=Jumbal -c user.email=liujerry7@gmail.com commit -q -m ' *)"
+    ],
+    "additionalDirectories": [
+      "d:\\WebDev\\Lifeline"
+    ]
+  }
+}

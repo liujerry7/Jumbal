@@ -1,0 +1,6 @@
+# Machine-local Claude Code settings (permissions etc.) — keep out of version control
+.claude/settings.local.json
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
